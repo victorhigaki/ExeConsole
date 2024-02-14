@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using ExeConsole;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
 var configuration = new ConfigurationBuilder()
@@ -7,3 +9,4 @@ var configuration = new ConfigurationBuilder()
     .Build();
 
 HostApplicationBuilder builder = Host.CreateApplicationBuilder(args);
+builder.Services.Configure<ConnectionStrings>(configuration.GetSection("ConnectionStrings"));
