@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExeConsole", "src\ExeConsole\ExeConsole.csproj", "{6198DA44-EEB3-404C-B30D-9D09647FD072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "src\Services\Services.csproj", "{189AE77F-DC29-41E8-86CC-31878F317276}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3C51D563-7CE1-44F4-8863-488A4CDA8276}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "src\Services\Services.csproj", "{038C53B8-549F-403A-A3D5-7884D34A77FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +19,16 @@ Global
 		{6198DA44-EEB3-404C-B30D-9D09647FD072}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6198DA44-EEB3-404C-B30D-9D09647FD072}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6198DA44-EEB3-404C-B30D-9D09647FD072}.Release|Any CPU.Build.0 = Release|Any CPU
-		{189AE77F-DC29-41E8-86CC-31878F317276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{189AE77F-DC29-41E8-86CC-31878F317276}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{189AE77F-DC29-41E8-86CC-31878F317276}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{189AE77F-DC29-41E8-86CC-31878F317276}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038C53B8-549F-403A-A3D5-7884D34A77FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038C53B8-549F-403A-A3D5-7884D34A77FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038C53B8-549F-403A-A3D5-7884D34A77FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038C53B8-549F-403A-A3D5-7884D34A77FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{038C53B8-549F-403A-A3D5-7884D34A77FC} = {3C51D563-7CE1-44F4-8863-488A4CDA8276}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {80244A0F-1C70-4B79-B5A3-D9358143FD55}
