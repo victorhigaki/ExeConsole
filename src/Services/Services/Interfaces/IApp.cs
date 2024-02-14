@@ -1,7 +1,6 @@
-﻿
-namespace Services.Services.Interfaces
+﻿namespace Services.Services.Interfaces
 {
-    internal interface IApp
+    public interface IApp
     {
         Task Run();
     }

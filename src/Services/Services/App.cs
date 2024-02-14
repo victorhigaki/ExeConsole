@@ -6,7 +6,7 @@ namespace Services.Services
     {
         public async Task Run()
         {
-
+            Console.WriteLine("Hello World!");
         }
     }
 }
